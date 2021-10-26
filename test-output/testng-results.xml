@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49492" started-at="2021-10-06T09:58:08Z" finished-at="2021-10-06T09:58:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49492" started-at="2021-10-06T09:58:08Z" finished-at="2021-10-06T09:58:58Z">
+      <class name="com.Guru99.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setExtentReport()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="setExtentReport" is-config="true" duration-ms="438" started-at="2021-10-06T15:28:08Z" finished-at="2021-10-06T15:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="setup" is-config="true" duration-ms="5350" started-at="2021-10-06T15:28:09Z" finished-at="2021-10-06T15:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyFlashMovieDemoLinkTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="verifyFlashMovieDemoLinkTest" duration-ms="943" started-at="2021-10-06T15:28:14Z" finished-at="2021-10-06T15:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlashMovieDemoLinkTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="642" started-at="2021-10-06T15:28:15Z" finished-at="2021-10-06T15:28:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFlashMovieDemoLinkTest status=SUCCESS method=HomePageTest.verifyFlashMovieDemoLinkTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="setup" is-config="true" duration-ms="3387" started-at="2021-10-06T15:28:16Z" finished-at="2021-10-06T15:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="verifyHomePageTitleTest" duration-ms="5" started-at="2021-10-06T15:28:19Z" finished-at="2021-10-06T15:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="639" started-at="2021-10-06T15:28:19Z" finished-at="2021-10-06T15:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitleTest status=SUCCESS method=HomePageTest.verifyHomePageTitleTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="setup" is-config="true" duration-ms="3336" started-at="2021-10-06T15:28:20Z" finished-at="2021-10-06T15:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifyLoginButtonTest(java.lang.String, java.lang.String)[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="verifyLoginButtonTest" duration-ms="1974" started-at="2021-10-06T15:28:23Z" finished-at="2021-10-06T15:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr349409]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hYdUnep]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=94.0.4606.71): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-8B5VFCJA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\sunny\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53016}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6438f4e8bdee7b0994d059926ac8edb3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=94.0.4606.71): User or Password is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-8B5VFCJA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\sunny\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53016}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6438f4e8bdee7b0994d059926ac8edb3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy14.getTitle(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getTitle(EventFiringWebDriver.java:176)
+	at com.Guru99.qa.pages.HomePage.validateLoginButton(HomePage.java:73)
+	at com.Guru99.qa.testcases.HomePageTest.verifyLoginButtonTest(HomePageTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="779" started-at="2021-10-06T15:28:25Z" finished-at="2021-10-06T15:28:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginButtonTest status=FAILURE method=HomePageTest.verifyLoginButtonTest(java.lang.String, java.lang.String)[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="setup" is-config="true" duration-ms="3337" started-at="2021-10-06T15:28:26Z" finished-at="2021-10-06T15:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogoTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="verifyLogoTest" duration-ms="2941" started-at="2021-10-06T15:28:29Z" finished-at="2021-10-06T15:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="657" started-at="2021-10-06T15:28:32Z" finished-at="2021-10-06T15:28:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogoTest status=SUCCESS method=HomePageTest.verifyLogoTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="setup" is-config="true" duration-ms="3456" started-at="2021-10-06T15:28:33Z" finished-at="2021-10-06T15:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyPageNameTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="verifyPageNameTest" duration-ms="60" started-at="2021-10-06T15:28:36Z" finished-at="2021-10-06T15:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageNameTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="643" started-at="2021-10-06T15:28:36Z" finished-at="2021-10-06T15:28:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageNameTest status=SUCCESS method=HomePageTest.verifyPageNameTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="setup" is-config="true" duration-ms="3199" started-at="2021-10-06T15:28:37Z" finished-at="2021-10-06T15:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifyRadioDemoLinkTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="verifyRadioDemoLinkTest" duration-ms="1301" started-at="2021-10-06T15:28:40Z" finished-at="2021-10-06T15:28:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Radio Button & Check Bx Demo] but found [Radio Button & Check Box Demo]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Radio Button & Check Bx Demo] but found [Radio Button & Check Box Demo]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.Guru99.qa.testcases.HomePageTest.verifyRadioDemoLinkTest(HomePageTest.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioDemoLinkTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="764" started-at="2021-10-06T15:28:42Z" finished-at="2021-10-06T15:28:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRadioDemoLinkTest status=FAILURE method=HomePageTest.verifyRadioDemoLinkTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="setup" is-config="true" duration-ms="3196" started-at="2021-10-06T15:28:42Z" finished-at="2021-10-06T15:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyResetButtonTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="verifyResetButtonTest" duration-ms="282" started-at="2021-10-06T15:28:46Z" finished-at="2021-10-06T15:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetButtonTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="655" started-at="2021-10-06T15:28:46Z" finished-at="2021-10-06T15:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResetButtonTest status=SUCCESS method=HomePageTest.verifyResetButtonTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="setup" is-config="true" duration-ms="3196" started-at="2021-10-06T15:28:46Z" finished-at="2021-10-06T15:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySeleniumLinkTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="verifySeleniumLinkTest" duration-ms="141" started-at="2021-10-06T15:28:50Z" finished-at="2021-10-06T15:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySeleniumLinkTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="668" started-at="2021-10-06T15:28:50Z" finished-at="2021-10-06T15:28:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySeleniumLinkTest status=SUCCESS method=HomePageTest.verifySeleniumLinkTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="setup" is-config="true" duration-ms="4259" started-at="2021-10-06T15:28:50Z" finished-at="2021-10-06T15:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifySignupLinkTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="verifySignupLinkTest" duration-ms="1986" started-at="2021-10-06T15:28:55Z" finished-at="2021-10-06T15:28:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Guru99 Bank Hme Page] but found [Guru99 Bank Home Page]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Guru99 Bank Hme Page] but found [Guru99 Bank Home Page]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.Guru99.qa.testcases.HomePageTest.verifySignupLinkTest(HomePageTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupLinkTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="tearDown" is-config="true" duration-ms="788" started-at="2021-10-06T15:28:57Z" finished-at="2021-10-06T15:28:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignupLinkTest status=FAILURE method=HomePageTest.verifySignupLinkTest()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.Guru99.qa.testcases.HomePageTest@5ce81285]" name="endReport" is-config="true" duration-ms="446" started-at="2021-10-06T15:28:58Z" finished-at="2021-10-06T15:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.Guru99.qa.testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

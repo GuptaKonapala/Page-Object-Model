@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="password" value="hYdUnep"/>
+    <parameter name="username" value="mngr349409"/>
+    <classes>
+      <class name="com.Guru99.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyLoginButtonTest" invocation-numbers="0"/>
+          <include name="verifyRadioDemoLinkTest"/>
+          <include name="setExtentReport"/>
+          <include name="verifySignupLinkTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.Guru99.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
